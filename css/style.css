@@ -1,0 +1,95 @@
+body {
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60%;
+    margin: 30px auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Estilos do cabeçalho */
+
+header {
+    background-color: #00adb5;
+    text-align: center;
+    padding: 2% 0;
+    border-radius: 12px 12px 0 0;
+}
+
+header table {
+    margin: 0 auto;
+}
+
+header td {
+    padding: 0 80px;
+}
+
+header img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 3px solid black;
+}
+
+header table h1 {
+    font-size: 2.5em;
+}
+
+/* Estilos da barra de navegação */
+
+nav ul {
+    margin: 0 auto;
+    background-color: #353535;
+    text-align: center;
+    padding: 2% 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 5%;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: #00adb5;
+}
+
+/* Estilos da parte principal */
+
+main {
+    background-color: white;
+    padding: 2% 3%;
+}
+
+.azul-claro {
+    color: #00adb5;
+}
+
+
+main a {
+    color: #00adb5;
+}
+
+/* Estilos do rodapé */
+
+footer {
+    color: #555555;
+    background-color: #00adb5;
+
+    padding: 1% 0;
+
+    border-top: 1px solid black;
+    border-radius: 0 0 12px 12px;
+
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
